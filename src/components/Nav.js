@@ -1,19 +1,36 @@
 import React from 'react'
-import'./Nav.css'
+import styles from './Nav.css'
+import Logo from '../images/Logo.svg'
 
 function Nav() {
   return (
-    <>
-      <ul class="navbar">
-        <li><a href='Home'>Home</a></li>
-        <li><a href='About'>About</a></li>
-        <li><a href='Menu'>Menu</a></li>
-        <li><a href='Reservations'>Reservations</a></li>
-        <li><a href='Order Online'>Order Online</a></li>
-        <li><a href='Login'>Login</a></li>
-      </ul>
+    <header class={styles.navbar}>
+      <img src={Logo} alt='Little Lemon Logo'/>
+      <nav>
+        <ul class={styles.menu}>
+          <li>
+            <a href='/'>Home</a>
+          </li>
+          <li>
+            <a href='/'>About</a>
+          </li>
+          <li>
+            <a href='/'>Menu</a>
+          </li>
+          <li>
+            <a href='/'>Reservations</a>
+          </li>
+          <li>
+            <a href='/'>Order Online</a>
+          </li>
+          <li>
+            <a href='/'>Login</a>
+          </li>
+        </ul>
+      </nav>
+      
 
-    </>
+    </header>
   )
 }
 
