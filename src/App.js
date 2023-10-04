@@ -1,4 +1,4 @@
-import Nav from './components/Nav';
+import Navbar from './components/Navbar';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-    <Nav/>
+    <Navbar/>
     <Main/>
     <Footer/>
     </>

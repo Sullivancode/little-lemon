@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Nav.css'
+import styles from './Navbar.module.css'
 import Logo from '../images/Logo.svg'
 import {AiOutlineMenu} from 'react-icons/ai'
 
