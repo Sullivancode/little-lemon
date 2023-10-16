@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import styles from './Navbar.module.css'
-import Logo from '../images/Logo.svg'
+import Logo from '../../images/Logo.svg'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 function Nav() {
