@@ -1,14 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import styles from './Navbar.module.css'
 import Logo from '../images/Logo.svg'
-import {AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
 function Nav() {
+  const [nav, setNav] = useState(false)
+
   return (
-    <header class={styles.navbar}>
+    <header className={styles.navbar}>
       <img src={Logo} alt='Little Lemon Logo'/>
       <nav>
-        <ul class={styles.menu}>
+        <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>
             <a href='/'>Home</a>
           </li>
@@ -29,8 +31,8 @@ function Nav() {
           </li>
         </ul>
       </nav>
-      <btn class={styles.mobile_btn}>
-        <AiOutlineMenu size={25}/>
+      <btn onClick={()=> setNav(!nav)} class={styles.mobile_btn}>
+        {nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25}/>}
       </btn>
     </header>
   )
