@@ -1,9 +1,14 @@
 import React from 'react'
 import styles from './Hero.module.css'
 
+
 const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className={styles.hero}>
+      <form>
+
+      </form>
+    </div>
   )
 }
 

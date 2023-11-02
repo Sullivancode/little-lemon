@@ -8,7 +8,9 @@ function Nav() {
 
   return (
     <header className={styles.navbar}>
+      <a href="/">
       <img src={Logo} alt='Little Lemon Logo'/>
+      </a>
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>

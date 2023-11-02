@@ -7,29 +7,53 @@
     padding: 2rem;
 }
 
-
-
-li a:hover{
-    color: white;
-    background: rgb(73, 94, 87);
-    border-radius: 16px;
-}
-
 .menu {
     display:flex;
     align-items: center;
 }
 
-.menu li {
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li {
     padding: 1rem;
 }
 
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px; 
+}
+
+li a:hover {
+    background: rgb(73, 94, 87);
+    color:white;
+    border-radius: 10px;
+    padding: 4px;
+  }
+
+a:after {
+    background-color:rgb(73, 94, 87);
+    color: white;
+}
 
 .mobile_btn {
     display: none;
 }
 
-@media screen and (max-width: 768px) {
+img{
+    padding-left: 16rem;
+}
+
+nav {
+    padding-right: 16rem;
+}
+
+@media screen and (max-width: 840px) {
     .mobile_btn {
         display: block;
         position: absolute;
@@ -37,6 +61,7 @@ li a:hover{
         cursor: pointer;
         z-index: 10;
     }
+
 
     .menu {
         display: flex;
