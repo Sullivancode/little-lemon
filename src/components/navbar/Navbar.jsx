@@ -14,7 +14,7 @@ function Nav() {
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>
-            <a href='/'>Home</a>
+            <a className={styles.active} href='/'>Home</a>
           </li>
           <li>
             <a href='/'>About</a>
