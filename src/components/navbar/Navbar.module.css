@@ -5,6 +5,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    font-family:'Karla', sans-serif, bold;
 }
 
 .menu {
@@ -18,7 +21,7 @@ ul{
 }
 
 li {
-    padding: 1rem;
+    padding: 1.1rem;
 }
 
 li a {
@@ -55,7 +58,8 @@ nav {
     padding-right: 16rem;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 720px) {
+
     .mobile_btn {
         display: block;
         position: absolute;
