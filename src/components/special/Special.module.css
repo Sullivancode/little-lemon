@@ -1,0 +1,37 @@
+.special_text h2{
+    position: relative;
+    top: 160px;
+    left: 18%;
+    font-family:'Karla', sans-serif;
+    font-size: 46px;
+    text-align: left;
+    color: black;
+    width: 582px;
+}
+
+.online_menu_btn{
+    position: relative;
+    top: 126px;
+    left: 68%;
+    color: black;
+    font-family:'Karla', sans-serif;
+    font-size: 20px;
+    width: 60%;
+    height: 20%;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 16px;
+    background-color:rgb(244, 206, 20) ;
+
+}
+
+.online_menu_btn:active{
+    background-color: rgb(147, 147, 132);
+}
+
+a{
+    text-decoration: none;
+}
