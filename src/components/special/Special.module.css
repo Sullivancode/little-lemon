@@ -74,7 +74,7 @@ a{
     font-size: 16px;
 }
 
-p.price{
+p.price1{
     position: relative;
     bottom: 25px;
     left:80%;
@@ -95,10 +95,11 @@ p.price{
 
 .card2{
     position: relative;
-    left: 41%;
-    bottom: 183px;
+    left: 39%;
+    bottom:180px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    height: 391px;
     width: 20%;
     border-radius: 16px 16px 0 0;
 }
@@ -111,8 +112,10 @@ p.price{
     position: relative;
     padding-left: 0px;
     padding-right:px;
+    height: 206px;
     width: 100%;
     border-radius: 16px 16px 0px 0px;
+    box-sizing: border-box;
 }
 
 .card2_container {
@@ -133,10 +136,77 @@ p.price{
 
 .card2_container a{
     position: relative;
-    bottom:6px;
+    top:10px;
     text-decoration: none;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     color: black;
 
+}
+
+p.price2{
+    position: relative;
+    bottom: 25px;
+    left:80%;
+    font-family: 'Karla', sans-serif;
+    color: rgb(244, 206, 20);
+}
+
+.card3{
+    position: relative;
+    left: 60%;
+    bottom:571px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 391px;
+    width: 20%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card3:hover{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card3 img {
+    position: relative;
+    padding-left: 0px;
+    padding-right:px;
+    height: 206px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    box-sizing: border-box;
+}
+
+.card3_container {
+    padding: 2px 16px;
+}
+
+.card3_container h4 {
+    font-family:'Markazi Text', sans-serif;
+    font-size: 24px;
+}
+
+.card3_container p {
+    position: relative;
+    bottom: 12px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.card3_container a{
+    position: relative;
+    top:10px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: black;
+
+}
+
+p.price3{
+    position: relative;
+    bottom: 25px;
+    left:80%;
+    font-family: 'Karla', sans-serif;
+    color: rgb(244, 206, 20);
 }
