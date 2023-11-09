@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
 
       <a className={styles.reserve_btn} href="">
-      <btn>Reserve a Table</btn>
+      <btn><b>Reserve a Table</b></btn>
       </a>
 
       <img src={foodPhoto} alt="restaurant food photo" className={styles.overhang_img}/>

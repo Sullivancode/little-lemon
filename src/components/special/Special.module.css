@@ -11,7 +11,7 @@
 
 .online_menu_btn{
     position: relative;
-    top: 126px;
+    top: 123px;
     left: 68%;
     color: black;
     font-family:'Karla', sans-serif;
@@ -34,4 +34,109 @@
 
 a{
     text-decoration: none;
+}
+
+.card1{
+    position: relative;
+    left: 18%;
+    top: 210px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card1:hover{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card1 img {
+    position: relative;
+    padding-left: 0px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card1_container {
+    padding: 2px 16px;
+    height: 182px;
+}
+
+.card1_container h4 {
+    font-family:'Markazi Text', sans-serif;
+    font-size: 24px;
+}
+
+.card1_container p {
+    position: relative;
+    bottom: 12px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+p.price{
+    position: relative;
+    bottom: 25px;
+    left:80%;
+    font-family: 'Karla', sans-serif;
+    color: rgb(244, 206, 20);
+
+}
+
+.card1_container a{
+    position: relative;
+    bottom:6px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: black;
+
+}
+
+.card2{
+    position: relative;
+    left: 41%;
+    bottom: 183px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 16px 16px 0 0;
+}
+
+.card2:hover{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card2 img {
+    position: relative;
+    padding-left: 0px;
+    padding-right:px;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card2_container {
+    padding: 2px 16px;
+}
+
+.card2_container h4 {
+    font-family:'Markazi Text', sans-serif;
+    font-size: 24px;
+}
+
+.card2_container p {
+    position: relative;
+    bottom: 12px;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+.card2_container a{
+    position: relative;
+    bottom:6px;
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    color: black;
+
 }

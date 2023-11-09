@@ -14,22 +14,22 @@ function Nav() {
       <nav>
         <ul className={nav ? [styles.menu, styles.active].join(' ') : [styles.menu]}>
           <li>
-            <a className={styles.active} href='/'>Home</a>
+            <a className={styles.active} href='/'><b>Home</b></a>
           </li>
           <li>
-            <a href='/'>About</a>
+            <a href='/'><b>About</b></a>
           </li>
           <li>
-            <a href='/'>Menu</a>
+            <a href='/'><b>Menu</b></a>
           </li>
           <li>
-            <a href='/'>Reservations</a>
+            <a href='/'><b>Reservations</b></a>
           </li>
           <li>
-            <a href='/'>Order Online</a>
+            <a href='/'><b>Order Online</b></a>
           </li>
           <li>
-            <a href='/'>Login</a>
+            <a href='/'><b>Login</b></a>
           </li>
         </ul>
       </nav>
