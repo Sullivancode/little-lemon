@@ -40,14 +40,12 @@ function special() {
       <div className={styles.card3}>
         <img src={Lemond} alt='Lemon dessert'/>
         <div className={styles.card3_container}>
-          <h4>lemon dessert</h4>
+          <h4>Lemon dessert</h4>
           <p className={styles.price3}>$5.00</p>
           <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
           <a href=""><b>Order online</b> <MdDeliveryDining /></a>
         </div>
       </div>
-
-
     </div>
   )
 }
