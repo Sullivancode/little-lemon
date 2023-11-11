@@ -23,7 +23,7 @@ function special() {
           <h4>Greek salad</h4>
           <p className={styles.price1}>$12.99</p>
           <p>The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons. </p>
-          <a href=""><b>Order online</b> <MdDeliveryDining /></a>
+          <a href=""><b>Order online</b> <MdDeliveryDining className={styles.delivery} size={25}/></a>
         </div>
       </div>
 
@@ -32,8 +32,8 @@ function special() {
         <div className={styles.card2_container}>
           <h4>Bruchetta</h4>
           <p className={styles.price2}>$5.99</p>
-          <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
-          <a href=""><b>Order online</b> <MdDeliveryDining /></a>
+          <p>Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil. </p>
+          <a href=""><b>Order online</b> <MdDeliveryDining className={styles.delivery} size={25}/></a>
         </div>
       </div>
 
@@ -43,7 +43,7 @@ function special() {
           <h4>Lemon dessert</h4>
           <p className={styles.price3}>$5.00</p>
           <p>This comes straight from grandma’s recipe book, every last ingredient has been sourced and is as authentic as can be imagined.</p>
-          <a href=""><b>Order online</b> <MdDeliveryDining /></a>
+          <a href=""><b>Order online</b> <MdDeliveryDining className={styles.delivery} size={25}/></a>
         </div>
       </div>
     </div>

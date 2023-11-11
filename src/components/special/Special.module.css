@@ -88,7 +88,7 @@ p.price1{
     bottom:6px;
     text-decoration: none;
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
 
 }
@@ -139,7 +139,7 @@ p.price1{
     top:10px;
     text-decoration: none;
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
 
 }
@@ -198,7 +198,7 @@ p.price2{
     top:10px;
     text-decoration: none;
     font-family: 'Karla', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: black;
 
 }
@@ -209,4 +209,10 @@ p.price3{
     left:80%;
     font-family: 'Karla', sans-serif;
     color: rgb(244, 206, 20);
+}
+
+.delivery{
+    position: relative;
+    top:5px;
+    left: 2px;
 }
