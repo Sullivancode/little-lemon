@@ -3,8 +3,8 @@ import styles from './Navbar.module.css'
 import Logo from '../../images/Logo.svg'
 import {AiOutlineMenu, AiOutlineClose} from 'react-icons/ai'
 
-function Nav() {
-  const [nav, setNav] = useState(false)
+function Navbar() {
+  const [nav, setNavbar] = useState(false)
 
   return (
     <header className={styles.navbar}>
@@ -33,11 +33,11 @@ function Nav() {
           </li>
         </ul>
       </nav>
-      <btn onClick={()=> setNav(!nav)} class={styles.mobile_btn}>
+      <btn onClick={()=> setNavbar(!nav)} class={styles.mobile_btn}>
         {nav ? <AiOutlineClose size={25}/> : <AiOutlineMenu size={25}/>}
       </btn>
     </header>
   )
 }
 
-export default Nav
+export default Navbar
