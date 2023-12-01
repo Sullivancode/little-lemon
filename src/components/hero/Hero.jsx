@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Hero.module.css'
 import foodPhoto from '../../images/restauranfood.jpg'
+import { Link } from 'react-router-dom'
 
 
 const Hero = () => {
@@ -12,9 +13,9 @@ const Hero = () => {
         <p>We are a family owned mediterranean resraurant, focused on traditional recipes served with a modern twist.</p>
       </div>
 
-      <a className={styles.reserve_btn} href="">
+      <Link to='/Reservations' className={styles.reserve_btn}>
       <btn><b>Reserve a Table</b></btn>
-      </a>
+      </Link>
 
       <img src={foodPhoto} alt="restaurant food photo" className={styles.overhang_img}/>
       

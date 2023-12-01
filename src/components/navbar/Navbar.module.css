@@ -1,11 +1,11 @@
 .navbar{
-    width: 100%;
-    height: 70px;
+    width: 97%;
+    height: 40px;
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
     font-size: 1.2rem;
+    padding: 1.2rem;
     line-height: 1.3;
     font-family:'Karla', sans-serif, bold;
 }
@@ -13,6 +13,7 @@
 .menu {
     display:flex;
     align-items: center;
+
 }
 
 ul{
@@ -24,7 +25,7 @@ li {
     padding: 1.1rem;
 }
 
-li a {
+.nav_link {
     display: block;
     color: black;
     text-align: center;
@@ -32,7 +33,7 @@ li a {
     padding: 4px;
 }
 
-li a:hover:not(.active) {
+.nav_link:hover:not(.active) {
     background: rgb(73, 94, 87);
     color:white;
     border-radius: 10px;
@@ -55,7 +56,7 @@ img{
 }
 
 nav {
-    padding-right: 16rem;
+    padding-right: 15rem;
 }
 
 @media screen and (max-width: 720px) {
@@ -79,7 +80,7 @@ nav {
         bottom: 0;
         top: 0;
         width: 100%;
-        height: 100vh;
+        height: 111vh;
         background-color:rgb(73, 94, 87) ;
         z-index: 10;
         transition: left 1s;
