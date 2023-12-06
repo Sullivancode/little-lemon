@@ -8,7 +8,6 @@ import {MdDeliveryDining} from 'react-icons/md'
 function special() {
   return (
     <div className={styles.special}>
-
       <div className={styles.special_text}>
         <h2>This weeks specials!</h2>
       </div>

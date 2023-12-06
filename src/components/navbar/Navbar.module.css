@@ -8,12 +8,12 @@
     padding: 1.2rem;
     line-height: 1.3;
     font-family:'Karla', sans-serif, bold;
+
 }
 
 .menu {
     display:flex;
     align-items: center;
-
 }
 
 ul{

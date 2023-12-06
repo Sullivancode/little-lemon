@@ -18,3 +18,69 @@
     font-size: 64px;
     color:rgb(244, 206, 20);
 }
+
+.radio_label {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 20px;
+    position: relative;
+    right: 26%;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-family:'karla' ;
+    color:white;
+    font-size: 28px;
+    height:25px;
+    padding-left: 0;
+    padding-right: 3px;
+}
+
+.radio_label2 {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-right: 20px;
+    position: relative;
+    right: 33%;
+    top: 20px;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    font-family:'karla' ;
+    color:white;
+    font-size: 28px;
+    height:25px;
+    padding-left: 0;
+    padding-right: 3px;
+}
+
+.input {
+    position: absolute;
+    opacity: 0
+}
+
+.input2{
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 155px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .checkmark2 {
+    position: absolute;
+    top: 0;
+    left: 158px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+
+  }

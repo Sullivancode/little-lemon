@@ -11,18 +11,20 @@ function Reservations() {
       <div className={styles.text}>
         <h1>Reservations</h1>
       </div>
-      <div>
-      <label>
-        <input type="radio" name="seatingOption" value="option1" />
-        Indoor seating 
+
+      <label className={styles.radio_label}>
+        <input className={styles.input} type="radio" name="seatingOption" value="option1" />
+        <b>Indoor seating</b>
+        <span className={styles.checkmark}></span>
       </label>
 
-      <label>
-        <input type="radio" name="seatingOption" value="option2" />
-        Outdoor seating
+      <label className={styles.radio_label2}>
+        <input className={styles.input2} type="radio" name="seatingOption" value="option2" />
+        <b>Outdoor seating</b>
+        <span className={styles.checkmark2}></span>
       </label>
       </div>
-    </div>
+
     </>
   )
 }
