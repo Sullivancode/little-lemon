@@ -12,10 +12,10 @@ function Reservations() {
         <h1>Reservations</h1>
       </div>
 
-      <label className={styles.radio_label}>
-        <input className={styles.input} type="radio" name="seatingOption" value="option1" />
+      <label className={styles.radio_label1}>
+        <input className={styles.input1} type="radio" name="seatingOption" value="option1" />
         <b>Indoor seating</b>
-        <span className={styles.checkmark}></span>
+        <span className={styles.checkmark1}></span>
       </label>
 
       <label className={styles.radio_label2}>

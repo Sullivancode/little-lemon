@@ -19,13 +19,14 @@
     color:rgb(244, 206, 20);
 }
 
-.radio_label {
+.radio_label1 {
     display: flex;
     align-items: center;
     margin-top: 12px;
     margin-right: 20px;
     position: relative;
     right: 26%;
+    top: 27%;
     padding-left: 35px;
     margin-bottom: 12px;
     font-family:'karla' ;
@@ -34,6 +35,42 @@
     height:25px;
     padding-left: 0;
     padding-right: 3px;
+    cursor: pointer;
+}
+
+.input1 {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkmark1 {
+    position: absolute;
+    top: 0;
+    left: 230px;
+    height: 25px;
+    width: 25px;
+    border:2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.checkmark1::after {
+    content: "";
+    position: absolute;
+    display:none;
+}
+
+.radio_label1 input:checked ~ .checkmark1::after {
+    display:block;
+}
+
+.radio_label1 .checkmark1:after {
+    top: 6.2px;
+    left:6.3px;
+    width: 12px;
+    height:12px;
+    border-radius:50%;
+    background-color: white;
 }
 
 .radio_label2 {
@@ -43,7 +80,7 @@
     margin-right: 20px;
     position: relative;
     right: 33%;
-    top: 20px;
+    top: 27%;
     padding-left: 35px;
     margin-bottom: 12px;
     font-family:'karla' ;
@@ -52,11 +89,7 @@
     height:25px;
     padding-left: 0;
     padding-right: 3px;
-}
-
-.input {
-    position: absolute;
-    opacity: 0
+    cursor: pointer;
 }
 
 .input2{
@@ -64,23 +97,34 @@
     opacity: 0;
 }
 
-.checkmark {
+
+
+.checkmark2 {
     position: absolute;
     top: 0;
-    left: 155px;
+    left: 240px;
     height: 25px;
     width: 25px;
-    background-color: #eee;
+    border:2px solid white;
     border-radius: 50%;
-  }
+    cursor: pointer;
+}
 
-  .checkmark2 {
+.checkmark2::after {
+    content: "";
     position: absolute;
-    top: 0;
-    left: 158px;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 50%;
+    display:none;
+}
 
-  }
+.radio_label2 input:checked ~ .checkmark2::after {
+    display:block;
+}
+
+.radio_label2 .checkmark2:after {
+    top: 6.2px;
+    left: 6.3px;
+    width: 12px;
+    height:12px;
+    border-radius:50%;
+    background-color: white;
+}
